@@ -6,7 +6,7 @@
 
 ```bash
 ## 新建目录
-mkdir /home/mtproxy && cd /home/mtproxy
+mkdir /mtproxy && cd /mtproxy
 
 ## 开始安装
 curl -s -o mtproxy.sh https://raw.githubusercontent.com/sunpma/mtp/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
