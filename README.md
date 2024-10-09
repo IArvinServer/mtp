@@ -46,13 +46,13 @@ bash mtproxy.sh restart
 因为是绿色版卸载极其简单，直接删除所在目录即可。
 
 ```bash
-rm -rf /home/mtproxy
+rm -rf /mtproxy
 ```
 
 ## 开机启动
 
 ```bash
-chmod 755 /home/mtproxy/mtproxy.sh
+chmod 755 /mtproxy/mtproxy.sh
 
 vi /etc/crontab
 
